@@ -19,6 +19,10 @@
 		A2927140190EB5E100CD3E87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2927128190EB5E100CD3E87 /* UIKit.framework */; };
 		A2927148190EB5E100CD3E87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2927146190EB5E100CD3E87 /* InfoPlist.strings */; };
 		A292714A190EB5E100CD3E87 /* NewCountDownTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2927149190EB5E100CD3E87 /* NewCountDownTimerTests.m */; };
+		A2927156190EB65A00CD3E87 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2927154190EB65A00CD3E87 /* HomeViewController.m */; };
+		A2927157190EB65A00CD3E87 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2927155190EB65A00CD3E87 /* HomeViewController.xib */; };
+		A292715B190EB7A200CD3E87 /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2927159190EB7A200CD3E87 /* CountDownViewController.m */; };
+		A292715C190EB7A200CD3E87 /* CountDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A292715A190EB7A200CD3E87 /* CountDownViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		A2927145190EB5E100CD3E87 /* NewCountDownTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewCountDownTimerTests-Info.plist"; sourceTree = "<group>"; };
 		A2927147190EB5E100CD3E87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2927149190EB5E100CD3E87 /* NewCountDownTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewCountDownTimerTests.m; sourceTree = "<group>"; };
+		A2927153190EB65A00CD3E87 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A2927154190EB65A00CD3E87 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A2927155190EB65A00CD3E87 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A2927158190EB7A200CD3E87 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
+		A2927159190EB7A200CD3E87 /* CountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownViewController.m; sourceTree = "<group>"; };
+		A292715A190EB7A200CD3E87 /* CountDownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountDownViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,12 @@
 		A2927118190EB5E100CD3E87 = {
 			isa = PBXGroup;
 			children = (
+				A2927153190EB65A00CD3E87 /* HomeViewController.h */,
+				A2927154190EB65A00CD3E87 /* HomeViewController.m */,
+				A2927155190EB65A00CD3E87 /* HomeViewController.xib */,
+				A2927158190EB7A200CD3E87 /* CountDownViewController.h */,
+				A2927159190EB7A200CD3E87 /* CountDownViewController.m */,
+				A292715A190EB7A200CD3E87 /* CountDownViewController.xib */,
 				A292712A190EB5E100CD3E87 /* NewCountDownTimer */,
 				A2927143190EB5E100CD3E87 /* NewCountDownTimerTests */,
 				A2927123190EB5E100CD3E87 /* Frameworks */,
@@ -219,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A292715C190EB7A200CD3E87 /* CountDownViewController.xib in Resources */,
 				A292712F190EB5E100CD3E87 /* InfoPlist.strings in Resources */,
 				A2927137190EB5E100CD3E87 /* Images.xcassets in Resources */,
+				A2927157190EB65A00CD3E87 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +257,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A292715B190EB7A200CD3E87 /* CountDownViewController.m in Sources */,
 				A2927135190EB5E100CD3E87 /* AppDelegate.m in Sources */,
 				A2927131190EB5E100CD3E87 /* main.m in Sources */,
+				A2927156190EB65A00CD3E87 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
